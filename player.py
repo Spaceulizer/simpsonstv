@@ -1,5 +1,4 @@
 import os
-import random
 import time
 from subprocess import PIPE, Popen, STDOUT
 
@@ -22,7 +21,6 @@ def playVideos():
         getVideos()
         time.sleep(5)
         return
-    random.shuffle(videos)
     for video in videos:
         playProcess = Popen(['omxplayer', '--no-osd', '--aspect-mode', 'fill', video])
         playProcess.wait()
