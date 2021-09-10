@@ -1,3 +1,3 @@
-These python scripts are used to make the Desktop Simpsons TV work.
+These python scripts are used to make the Desktop Futurama TV work.
 
-You can find a complete build guide [here](https://withrow.io/simpsons-tv-build-guide)
+You can find the original build guide [here](https://withrow.io/simpsons-tv-build-guide)
