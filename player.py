@@ -21,6 +21,7 @@ def playVideos():
         getVideos()
         time.sleep(5)
         return
+    videos.sort()
     for video in videos:
         playProcess = Popen(['omxplayer', '--no-osd', '--aspect-mode', 'fill', video])
         playProcess.wait()
